@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		0B346CB61D5E47BC006A42C3 /* Bravo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B346CB51D5E47BC006A42C3 /* Bravo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B346CBD1D5E47BC006A42C3 /* Bravo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B346CB21D5E47BC006A42C3 /* Bravo.framework */; };
-		0B346CC21D5E47BC006A42C3 /* BravoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B346CC11D5E47BC006A42C3 /* BravoTests.swift */; };
+		0B346CC21D5E47BC006A42C3 /* BravoProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B346CC11D5E47BC006A42C3 /* BravoProviderTests.swift */; };
 		0B346CCD1D5E47D9006A42C3 /* BravoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B346CCC1D5E47D9006A42C3 /* BravoProvider.swift */; };
+		0B629ADD1D7F7BB200C85EF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B629ADC1D7F7BB200C85EF2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +29,10 @@
 		0B346CB51D5E47BC006A42C3 /* Bravo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bravo.h; sourceTree = "<group>"; };
 		0B346CB71D5E47BC006A42C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B346CBC1D5E47BC006A42C3 /* BravoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BravoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B346CC11D5E47BC006A42C3 /* BravoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravoTests.swift; sourceTree = "<group>"; };
+		0B346CC11D5E47BC006A42C3 /* BravoProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BravoProviderTests.swift; sourceTree = "<group>"; };
 		0B346CC31D5E47BC006A42C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B346CCC1D5E47D9006A42C3 /* BravoProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BravoProvider.swift; sourceTree = "<group>"; };
+		0B629ADC1D7F7BB200C85EF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				0B346CB51D5E47BC006A42C3 /* Bravo.h */,
 				0B346CB71D5E47BC006A42C3 /* Info.plist */,
 				0B346CCC1D5E47D9006A42C3 /* BravoProvider.swift */,
+				0B629ADC1D7F7BB200C85EF2 /* Images.xcassets */,
 			);
 			path = Bravo;
 			sourceTree = "<group>";
@@ -83,7 +86,7 @@
 		0B346CC01D5E47BC006A42C3 /* BravoTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B346CC11D5E47BC006A42C3 /* BravoTests.swift */,
+				0B346CC11D5E47BC006A42C3 /* BravoProviderTests.swift */,
 				0B346CC31D5E47BC006A42C3 /* Info.plist */,
 			);
 			path = BravoTests;
@@ -180,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B629ADD1D7F7BB200C85EF2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B346CC21D5E47BC006A42C3 /* BravoTests.swift in Sources */,
+				0B346CC21D5E47BC006A42C3 /* BravoProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +389,7 @@
 				0B346CC81D5E47BC006A42C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B346CC91D5E47BC006A42C3 /* Build configuration list for PBXNativeTarget "BravoTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +398,7 @@
 				0B346CCB1D5E47BC006A42C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

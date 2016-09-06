@@ -14,4 +14,9 @@ public class BravoProvider: NSObject {
     public func bravo() -> String {
         return "bravo"
     }
+
+    public func image() -> UIImage? {
+        let bundle = NSBundle(forClass: BravoProvider.self)
+        return UIImage(named: "100", inBundle: bundle, compatibleWithTraitCollection: nil)
+    }
 }

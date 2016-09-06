@@ -9,10 +9,13 @@
 import XCTest
 import Bravo
 
-class BravoTests: XCTestCase {
+class BravoProviderTests: XCTestCase {
 
-    func testBravoProvider() {
+    func testBravo() {
         XCTAssertEqual(BravoProvider().bravo(), "bravo")
     }
-    
+
+    func testImage() {
+        XCTAssertNotNil(BravoProvider().image())
+    }
 }
